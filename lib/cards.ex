@@ -56,7 +56,7 @@ defmodule Cards do
   ## Examples
 
       iex> deck = Cards.create_deck
-      iex> {hand, deck} = Cards.deal(deck, 3)
+      iex> {hand, _} = Cards.deal(deck, 3)
       iex> hand
       ["Ace of Spades", "Two of Spades", "Three of Spades"]
 
